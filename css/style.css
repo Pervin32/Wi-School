@@ -1,0 +1,714 @@
+.container {
+    width: 1240px;
+    margin: auto;
+   
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+
+    .left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        figure {
+            margin-right: 130px;
+            padding-top: 30px;
+            width: 132px;
+
+        }
+
+        nav {
+            padding-top: 26px;
+
+            ul {
+                display: flex;
+                justify-content: center;
+
+                li {
+                    height: 48px;
+                    padding: 19px;
+
+                    a {
+                        color: var(--colorGrey3);
+                    }
+                }
+            }
+        }
+    }
+
+    .right {
+        padding-top: 28px;
+
+        i {
+            width: 24px;
+            padding-right: 10px;
+
+        }
+
+        .btn_login {
+
+            padding: 8px 18px 8px 18px;
+            border-radius: 3px;
+
+        }
+
+        .btn_register {
+            padding: 12px 24px 12px 24px;
+
+            border-radius: 5px;
+        }
+    }
+}
+
+.education {
+
+    .container {
+
+        background: linear-gradient(90deg, #FBFEFC, #F6FCF9);
+        height: 600px;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 50px;
+        overflow: hidden;
+
+
+        .left {
+            width: 50%;
+            display: flex;
+            align-items: center;
+            overflow-wrap: anywhere;
+
+
+            .btn {
+
+                padding: 20px 42px 20px 42px;
+
+
+            }
+        }
+
+        .right {
+            display: flex;
+            justify-content: end;
+            position: relative;
+            padding: 50px 40px 50px 50px;
+
+
+            &::before {
+                content: ' ';
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                top: 0;
+                width: 110px;
+                z-index: 1;
+                background-color: var(--colorTranquil);
+
+            }
+
+
+            figure.photos {
+                width: 430px;
+                height: 507px;
+                flex-shrink: 0;
+                border-radius: 40px 40px 100px 40px;
+                overflow: hidden;
+                position: absolute;
+                z-index: 2;
+
+
+
+            }
+
+
+
+            .learn {
+
+                padding: 17px;
+                width: fit-content;
+                z-index: 2;
+                border-radius: 14px 14px 30px 14px;
+                margin-top: 235px;
+                margin-right: 300px;
+                box-shadow: 0px 0px 69.23px 0px #70707040;
+
+
+                p.text {
+                    width: 214px;
+                    text-align: center;
+                }
+
+                .hero_photo {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 10px;
+                    
+                }
+
+                .user {
+
+                    border: 3px solid var(--colorWhite);
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    overflow: hidden;
+
+
+                }
+
+                .user:not(:first-child) {
+                    margin-left: -20px;
+                }
+
+            }
+
+
+
+
+            .amazing {
+                width: 130px;
+                z-index: 2;
+                padding: 15px 5px;
+                border-radius: 7px 7px 17px 7px;
+                margin-top: 300px;
+                margin-right: -20px;
+                box-shadow: 0px 0px 25.76px 0px #70707040;
+
+                i.icon {
+                    margin-left: 40px;
+                }
+
+                .amazing_text {
+                    width: 103px;
+                    font-size: 12px;
+                    line-height: 21px;
+                }
+            }
+
+        }
+    }
+}
+
+
+.nav2 {
+    .container {
+        display: flex;
+        gap: 48px;
+
+        div {
+            height: 60px;
+            padding: 10px 17px;
+            ;
+            background-color: var(--colorTranquil);
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            flex-grow: 1;
+
+
+            span {
+                margin-left: 12px;
+                font-weight: 400px;
+                font-size: 16px;
+                line-height: 24px;
+                color: var(--colorblack);
+
+            }
+
+        }
+    }
+}
+
+
+/* Choose favourite course from top cartegories */
+.card_catagory {
+
+    .container {
+        position: relative;
+
+        .card_head {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 64px;
+
+            a {
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 36px;
+                color: var(--colorMineshaft)
+            }
+        }
+
+        .card_body {
+
+            display: grid;
+
+            grid-template-columns: repeat(4, 1fr);
+
+            gap: 32px;
+
+
+            .item {
+                position: relative;
+                overflow: hidden;
+
+
+                figure {
+                    aspect-ratio: 2 / 3;
+
+                }
+
+                &:hover .inner {
+                    bottom: 0;
+
+                    .text {
+                        opacity: 1;
+                        visibility: visible;
+                    }
+                }
+
+                &::after {
+                    content: ' ';
+                    position: absolute;
+                    background-color: #000;
+                    opacity: 0.6;
+                    inset: 0;
+                    z-index: 1;
+                    aspect-ratio: 2 / 3;
+
+                }
+
+
+                .inner {
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    bottom: -60%;
+                    z-index: 2;
+                    display: flex;
+                    align-items: end;
+                    padding: 0 20px 10px 24px;
+                    transition: all ease-in 100ms;
+                }
+
+                h3 {
+                    font-weight: 600;
+                    font-size: 32px;
+                    line-height: 48px;
+                    color: var(--colorWhite);
+
+
+                }
+
+                p.text {
+                    font-weight: 300;
+                    font-size: 20px;
+                    line-height: 20px;
+                    color: var(--colorWhite);
+                    opacity: 0;
+                    visibility: hidden;
+
+                }
+
+
+            }
+
+
+
+        }
+
+
+
+
+
+
+    }
+}
+
+/* #Choose favourite course from top cartegories */
+
+
+/* Most Popular courses */
+.card,
+.card_photograpy {
+
+    .container {
+
+        .card_head {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 64px;
+
+            .btn_sort_by {
+                display: flex;
+
+                padding: 8px 16px 8px 16px;
+                border-radius: 50px;
+
+
+            }
+        }
+
+        .card_body {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+
+            .photograpy_item {
+                position: relative;
+                border-radius: 10px;
+                box-shadow: 0px 0px 20px 0px #CBCBCB40;
+                overflow: hidden;
+
+                a {
+                    position: absolute;
+                    inset: 0;
+                    z-index: 2;
+                }
+
+                .photo {
+                    aspect-ratio: 6 / 4;
+                }
+
+                .inner {
+                    padding: 24px;
+
+                    h3 {
+                        text-transform: capitalize;
+
+                    }
+
+                    .top {
+                        display: flex;
+                        align-items: start;
+                        gap: 10px;
+                        margin-bottom: 42px;
+
+                        .rewiew {
+                            display: inline-flex;
+                            padding-top: 7px;
+                        }
+                    }
+
+                    .bottom {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: flex-end;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* #Most Popular courses */
+
+
+
+
+/* We Bring The Good Education To Life */
+
+.card_about {
+
+
+    .container {
+
+        .card_body {
+
+            display: grid;
+            grid-template-columns: 390px 1fr;
+
+
+            .left {
+
+                display: flex;
+                justify-content: start;
+
+                .amazing {
+                    z-index: 2;
+                    padding: 15px 13px;
+                    border-radius: 7px 7px 17px 7px;
+                    width: 129px;
+
+                    box-shadow: 0px 0px 76px 0px #70707040;
+                    margin-left: 311px;
+                    margin-top: 213px;
+
+
+
+                    i.icon {
+                        margin-left: 34px;
+                    }
+
+                    .amazing_text {
+                        width: 112px;
+                    }
+                }
+
+
+                .photo {
+                    width: 390px;
+                    height: 460px;
+
+                    border-radius: 29px 29px 72px 29px;
+                    overflow: hidden;
+
+                }
+
+
+
+            }
+
+            .right {
+
+
+                ul li {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 32px;
+                }
+
+                a {
+                    color: var(--colorMineshaft);
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 30px;
+
+                }
+            }
+        }
+    }
+}
+
+/* #We Bring The Good Education To Life*/
+
+
+
+
+/* Reviews */
+
+.card_rewiew {
+    .container {
+
+        .rewiew_body {
+            .left {
+                overflow-wrap: anywhere;
+            }
+
+        }
+
+        .rewiew_body {
+            display: grid;
+            grid-template-columns: 380px 1fr;
+            ;
+
+
+
+            .right {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 32px;
+
+                overflow-x: auto;
+                scrollbar-width: none;
+
+                padding-left: 20px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-right: 20px;
+
+
+                .card_commend {
+                    padding: 59px 48px;
+                    width: 480px;
+                    flex-shrink: 0;
+                    box-shadow: 0px 0px 20px 0px #E2E2E240;
+
+                    .photo {
+                        width: 70px;
+                        height: 70px;
+                        border-radius: 40px;
+                        overflow: hidden;
+                    }
+
+
+                }
+            }
+        }
+
+
+    }
+}
+
+/* #Reviews */
+
+
+
+/* Meet our instructors */
+
+.card_user {
+    margin-bottom: 190px;
+
+    .container {
+
+
+
+        .card_body {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+
+            .card_commend {
+                display: flex;
+                flex-direction: column;
+                width: 390px;
+                text-align: center;
+                box-shadow: 0px 0px 20px 0px #CBCBCB40;
+                padding: 34px;
+
+
+            }
+        }
+
+        .photo {
+            width: 113px;
+            height: 113px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-left: 104px;
+
+        }
+    }
+}
+
+/* #Meet our instructors */
+
+
+
+/* Frau mit kopfhörer */
+.card_earphone {
+   
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+
+
+    &::after {
+        content: ' ';
+        position: absolute;
+        background-color: #000;
+        opacity: 0.6;
+        inset: 0;
+        z-index: 1;
+
+
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+
+
+
+        .left {
+            width: 50%;
+            z-index: 999;
+
+            .photos {
+                width: 513px;
+                height: 517px;
+                display: absolute;
+                margin-top: -57px;
+
+                border-radius: 20px;
+                overflow: hidden;
+
+            }
+        }
+
+        .right {
+            z-index: 999;
+
+            .btn {
+                padding: 20px 40px;
+
+                height: 60px;
+            }
+
+            .btn-white {
+                border: 2px solid var(--colorGreen);
+            }
+
+        }
+    }
+}
+
+/* #Frau mit kopfhörer */
+
+
+/* Footer */
+.footer {
+  
+   
+    padding: 120px 100px;
+
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+
+        .left {
+
+            p.text {
+                width: 296px;
+            }
+        }
+
+        .right {
+            .ul {
+                display: grid;
+                grid-template-columns: auto auto auto auto auto;
+                gap: 70px;
+
+
+            }
+
+            .subscripe {
+                margin-top: 150px;
+
+                input {
+                    width: 419px;
+                    padding: 18px;
+                    background-color: var(--colorWhite);
+                }
+
+                ::placeholder {
+                    color: var(--colorGreen);
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 21px;
+                }
+
+                .btn {
+                    margin-left: -4px;
+                    padding: 18px;
+                }
+            }
+        }
+    }
+}
+
+/*# Footer */

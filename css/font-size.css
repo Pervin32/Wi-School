@@ -1,0 +1,114 @@
+
+
+.text-8xl{
+    font-size: 60px;
+    line-height: 90px;
+}
+
+.text-7xl{
+
+    font-size: 48px;
+    line-height: 72px;
+}
+
+.text-6xl{
+
+    font-size: 48px;
+    line-height: 65px;
+}
+
+.text-5xl{
+
+    font-size: 42px;
+    line-height: 57px;
+}
+
+.text-4xl{
+
+    font-size: 32px;
+    line-height: 41px;
+}
+
+.text-3l{
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.text-2xl{
+    font-size: 24px;
+    line-height: 36px;
+}
+.text-xl{
+    font-size: 24px;
+    line-height: 32px;
+}
+
+
+
+.text-5m{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.text-4m{
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.text-3m{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.text-2m{
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.text-m{
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.text-s{
+    font-size: 16px;
+    line-height: 48px;
+}
+.text-1s{
+    font-size: 16px;
+    line-height: 22px;
+}
+.text-xs{
+    font-size: 16px;
+    line-height: 26px;
+}
+.text-2xs{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.text-3xs{
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+.text-5xs{
+    font-size: 14px;
+    line-height: 25px;
+}
+.text-6xs{
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.text-7xs{
+    font-size: 12px;
+    line-height: 18px;
+}
+
+/* Letter */
+
+.l-1{
+    letter-spacing: 1px;
+}

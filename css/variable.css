@@ -1,0 +1,25 @@
+:root {
+
+    /* Color */
+
+    --colorWhite: #fff;
+    --colorBlack: #000;
+    --colorGrey3: rgba(64, 64, 64, 0.8);
+    --colorGreen: #09B451;
+
+    --colorTranquil: #E4FFFF;
+    --colorBabyBlue: #DDFFFF;
+    --colorMineShaft: #333333;
+    --colorShamrock: #3BD27B;
+    --colorMalachite: rgba(10, 199, 90, 0.8);
+    --colorNarvik: #F8FDFA;
+    --colorshadow: #CBCBCB40;
+    --colorAlto: #CECECE;
+    --colorMercury: #E2E2E240;
+    --colorgrayshadow: #70707040;
+    --colorfilter: #00000080;
+
+    --colorpri: #242243;
+}
+
+

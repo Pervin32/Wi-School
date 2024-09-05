@@ -1,0 +1,157 @@
+.icon{
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.icon_2xl{
+    width: 40px;
+    height: 40px;
+}
+
+.icon_xl{
+    width: 30px;
+    height: 30px;
+}
+
+.icon_m{
+    width: 24px;
+    height: 24px;
+}
+
+.icon_s{
+    width: 18px;
+    height: 18px;
+}
+
+.icon_xs{
+    width: 16px;
+    height: 16px;
+}
+
+.icon-line_s{
+    width: 39px;
+    height: 1px;
+}
+
+.icon-line_m{
+    width: 210px;
+    height: 7px;
+}
+
+
+
+.icon-10k_courses{
+    background-image: url('../img/10k_courses.svg');
+}
+
+.icon-book{
+    background-image: url('../img/book.svg');
+}
+
+.icon-search{
+    background-image: url('../img/bx_search.svg');
+}
+
+
+.icon-collobrate{
+    background-image: url('../img/collobrate.svg');
+}
+
+
+.icon-facebook{
+    background-image: url('../img/facebook.svg');
+}
+
+
+
+.icon-group_reading{
+    background-image: url('../img/group_reading.svg');
+}
+
+
+.icon-hand_on{
+    background-image: url('../img/hand_on.svg');
+}
+
+
+.icon-instagram{
+    background-image: url('../img/insta.svg');
+}
+
+
+.icon-learn{
+    background-image: url('../img/learn.svg');
+}
+
+
+.icon-less_bottom{
+    background-image: url('../img/less_than_bottom.svg');
+}
+
+
+.icon-less_right{
+    background-image: url('../img/less_than_right.svg');
+}
+
+
+.icon-less{
+    background-image: url('../img/less_than.svg');
+}
+
+
+.icon-linkedin{
+    background-image: url('../img/linkedin.svg');
+}
+
+
+.icon-live_chat{
+    background-image: url('../img/live_chat.svg');
+}
+
+
+.icon-people_blue{
+    background-image: url('../img/people_blue.svg');
+}
+
+
+.icon-people{
+    background-image: url('../img/people.svg');
+}
+
+
+.icon-problem_solving{
+    background-image: url('../img/problem_solving.svg');
+}
+
+
+.icon-star{
+    background-image: url('../img/star.svg');
+}
+
+
+.icon-tasche{
+    background-image: url('../img/tasche.svg');
+}
+
+
+.icon-twitter{
+    background-image: url('../img/twitter.svg');
+}
+
+
+.icon-vector_sm{
+    background-image: url('../img/Vector\ 21.svg');
+}
+
+
+.icon-vector_l{
+    background-image: url('../img/Vector\ 19.svg');
+}
+
+.icon-people-white{
+    background-color: url('../img/people_white.svg');
+}
